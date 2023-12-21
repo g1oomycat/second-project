@@ -1,0 +1,105 @@
+.left_item {
+  display: flex;
+  position: relative;
+  flex-wrap: nowrap;
+  width: 100%;
+  min-height: 270px;
+  border-radius: 5px;
+  background-color: rgb(228, 227, 226);
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+  @media (max-width: 1200px) {
+    min-height: 220px;
+  }
+
+  .item_img {
+    position: relative;
+    width: 320px;
+    height: 100%;
+    @media (max-width: 1200px) {
+      width: 260px;
+    }
+    img {
+      position: absolute;
+      width: 100%;
+      border-radius: 4px;
+      top: 0;
+      object-fit: fill;
+    }
+  }
+  .item_info {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    justify-content: space-between;
+    width: 100%;
+    .item_delete {
+      cursor: pointer;
+      position: absolute;
+      top: 0;
+      right: 0;
+      &:hover {
+        opacity: 0.5;
+      }
+    }
+
+    .item_name {
+      font-size: 30px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      @media (max-width: 1500px) {
+        font-size: 25px;
+      }
+    }
+    .item_discription {
+      font-size: 22px;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+      @media (max-width: 1500px) {
+        font-size: 20px;
+      }
+    }
+    .item_coast_count {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-between;
+      .item_coast {
+        font-size: 30px;
+        @media (max-width: 1500px) {
+          font-size: 25px;
+        }
+
+        font-weight: 700;
+      }
+      .item_count {
+        width: 100px;
+        height: 33px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid black;
+        border-radius: 5px;
+
+        .count_text {
+          font-size: 20px;
+          font-weight: 500;
+        }
+        @media (max-width: 1500px) {
+          font-size: 18px;
+        }
+        .cou .count_button {
+          padding: 0px 4px;
+          align-self: center;
+          svg {
+            cursor: pointer;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+}

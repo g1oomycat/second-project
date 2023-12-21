@@ -1,0 +1,130 @@
+.main_page {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main_block_body {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .main_image {
+    background: url(../../images/interier.jpg) no-repeat center top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 750px;
+    width: 1920px;
+    .main_mask {
+      background-color: rgba($color: #000000, $alpha: 0.8);
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .main_cont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .main_title {
+      color: white;
+      text-wrap: wrap;
+      font-size: clamp(15px, 3.3vw, 60px);
+      letter-spacing: 1em;
+      font-weight: 600;
+      text-transform: uppercase;
+    }
+  }
+}
+.main_grid_catalog {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 80px 0px;
+  .main_grid_title {
+    font-size: 35px;
+    margin-bottom: 30px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+  }
+  .main_grid {
+    position: relative;
+    display: inline-grid;
+    grid-gap: 30px;
+    grid-template-areas:
+      "bed bed chair sofa"
+      "bed bed closet closet"
+      "table armchair closet closet";
+    grid-template-columns: auto;
+    width: 1780px;
+    height: 890px;
+    .grid_item {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      .name_item {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        font-size: 25px;
+        color: white;
+        letter-spacing: 0.1em;
+        font-weight: 500;
+      }
+      .coast_item {
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+        font-size: 20px;
+        color: white;
+        letter-spacing: 0.1em;
+      }
+    }
+    .img_item {
+      img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        object-fit: fill;
+        z-index: -1;
+      }
+      .item_mask {
+        position: absolute;
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .grid_item:nth-child(1) {
+      grid-area: bed;
+    }
+    .grid_item:nth-child(2) {
+      grid-area: chair;
+    }
+    .grid_item:nth-child(3) {
+      grid-area: closet;
+    }
+    .grid_item:nth-child(4) {
+      grid-area: armchair;
+    }
+    .grid_item:nth-child(5) {
+      grid-area: sofa;
+    }
+    .grid_item:nth-child(6) {
+      grid-area: table;
+    }
+  }
+}

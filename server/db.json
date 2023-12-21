@@ -1,0 +1,297 @@
+{
+  "users": [
+    {
+      "first_name": "ильдар",
+      "last_name": "насыров",
+      "phone_number": "+7 904 470 16 53",
+      "email": "Qwerty@mail.ru",
+      "password": "Qwerty123",
+      "user_adress": "",
+      "user_balance": 0,
+      "role": true,
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Кресла",
+      "link": "/catalog/armchair",
+      "img": "/uploads/armchair.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Стулья",
+      "link": "/catalog/chair",
+      "img": "/uploads/chair.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Диваны",
+      "link": "/catalog/sofa",
+      "img": "/uploads/sofa.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Кровати",
+      "link": "/catalog/bed",
+      "img": "/uploads/bed.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Столы",
+      "link": "/catalog/table",
+      "img": "/uploads/table.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Шкафы",
+      "link": "/catalog/closet",
+      "img": "/uploads/closet.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Комфортное кресло",
+      "description": "Мягкое и удобное кресло для отдыха",
+      "price": 5000,
+      "img": "/uploads/armchair.jpg",
+      "id_category": 1
+    },
+    {
+      "id": 2,
+      "name": "Стильный стул",
+      "description": "Современный дизайн и прочная конструкция",
+      "price": 1000,
+      "img": "/uploads/chair.jpg",
+      "id_category": 2
+    },
+    {
+      "id": 3,
+      "name": "Уютный диван",
+      "description": "Прекрасный диван для семейных вечеров",
+      "price": 8000,
+      "img": "/uploads/sofa.jpg",
+      "id_category": 3
+    },
+    {
+      "id": 4,
+      "name": "Комфортная кровать",
+      "description": "Просторная и удобная кровать для отдыха",
+      "price": 6000,
+      "img": "/uploads/bed.jpg",
+      "id_category": 4
+    },
+    {
+      "id": 5,
+      "name": "Стол для обеда",
+      "description": "Элегантный стол для обеда в стиле модерн",
+      "price": 1500,
+      "img": "/uploads/table.jpg",
+      "id_category": 5
+    },
+    {
+      "id": 6,
+      "name": "Шкаф с зеркалом",
+      "description": "Просторный шкаф с зеркальными дверцами",
+      "price": 3000,
+      "img": "/uploads/closet.jpg",
+      "id_category": 6
+    },
+    {
+      "id": 7,
+      "name": "Роскошное кресло",
+      "description": "Элегантное кресло с мягкой обивкой",
+      "price": 7000,
+      "img": "/uploads/armchair.jpg",
+      "id_category": 1
+    },
+    {
+      "id": 8,
+      "name": "Модный стул",
+      "description": "Стильный стул с металлическим каркасом",
+      "price": 1200,
+      "img": "/uploads/chair.jpg",
+      "id_category": 2
+    },
+    {
+      "id": 9,
+      "name": "Легкий диван",
+      "description": "Компактный диван для небольших пространств",
+      "price": 7500,
+      "img": "/uploads/sofa.jpg",
+      "id_category": 3
+    },
+    {
+      "id": 10,
+      "name": "Элегантная кровать",
+      "description": "Кровать с изящным дизайном и высоким изголовьем",
+      "price": 6500,
+      "img": "/uploads/bed.jpg",
+      "id_category": 4
+    },
+    {
+      "id": 11,
+      "name": "Массивный стол",
+      "description": "Стол с массивной деревянной столешницей",
+      "price": 2000,
+      "img": "/uploads/table.jpg",
+      "id_category": 5
+    },
+    {
+      "id": 12,
+      "name": "Просторный шкаф",
+      "description": "Шкаф с множеством полок и отделений",
+      "price": 3500,
+      "img": "/uploads/closet.jpg",
+      "id_category": 6
+    },
+    {
+      "id": 13,
+      "name": "Эргономичное кресло",
+      "description": "Кресло с поддержкой для правильной осанки",
+      "price": 5500,
+      "img": "/uploads/armchair.jpg",
+      "id_category": 1
+    },
+    {
+      "id": 14,
+      "name": "Дизайнерский стул",
+      "description": "Стул с оригинальным дизайном для современного интерьера",
+      "price": 1500,
+      "img": "/uploads/chair.jpg",
+      "id_category": 2
+    },
+    {
+      "id": 15,
+      "name": "Мягкий диван",
+      "description": "Диван с пушистой обивкой для максимального комфорта",
+      "price": 9000,
+      "img": "/uploads/sofa.jpg",
+      "id_category": 3
+    },
+    {
+      "id": 16,
+      "name": "Классическая кровать",
+      "description": "Кровать в классическом стиле с деревянным изголовьем",
+      "price": 7000,
+      "img": "/uploads/bed.jpg",
+      "id_category": 4
+    },
+    {
+      "id": 17,
+      "name": "Стеклянный обеденный стол",
+      "description": "Обеденный стол с стеклянной столешницей",
+      "price": 1800,
+      "img": "/uploads/table.jpg",
+      "id_category": 5
+    },
+    {
+      "id": 18,
+      "name": "Современный шкаф",
+      "description": "Шкаф в современном стиле с глазированными дверцами",
+      "price": 3200,
+      "img": "/uploads/closet.jpg",
+      "id_category": 6
+    },
+    {
+      "id": 19,
+      "name": "Лаунж-кресло",
+      "description": "Кресло для отдыха в стиле лаунж",
+      "price": 6000,
+      "img": "/uploads/armchair.jpg",
+      "id_category": 1
+    },
+    {
+      "id": 20,
+      "name": "Пластиковый стул",
+      "description": "Легкий и прочный стул из пластика",
+      "price": 800,
+      "img": "/uploads/chair.jpg",
+      "id_category": 2
+    },
+    {
+      "id": 21,
+      "name": "Угловой диван",
+      "description": "Диван с угловой конструкцией для большого пространства",
+      "price": 9500,
+      "img": "/uploads/sofa.jpg",
+      "id_category": 3
+    },
+    {
+      "id": 22,
+      "name": "Круглая кровать",
+      "description": "Кровать с круглой формой и мягким изголовьем",
+      "price": 7500,
+      "img": "/uploads/bed.jpg",
+      "id_category": 4
+    },
+    {
+      "id": 23,
+      "name": "Рабочий стол",
+      "description": "Стол для работы с выдвижными ящиками",
+      "price": 1200,
+      "img": "/uploads/table.jpg",
+      "id_category": 5
+    },
+    {
+      "id": 24,
+      "name": "Двустворчатый шкаф",
+      "description": "Шкаф с двумя дверцами для хранения одежды",
+      "price": 2800,
+      "img": "/uploads/closet.jpg",
+      "id_category": 6
+    },
+    {
+      "id": 25,
+      "name": "Массажное кресло",
+      "description": "Кресло с функцией массажа для полного расслабления",
+      "price": 9000,
+      "img": "/uploads/armchair.jpg",
+      "id_category": 1
+    },
+    {
+      "id": 26,
+      "name": "Складной стул",
+      "description": "Практичный складной стул для удобства хранения",
+      "price": 600,
+      "img": "/uploads/chair.jpg",
+      "id_category": 2
+    },
+    {
+      "id": 27,
+      "name": "Модульный диван",
+      "description": "Диван с возможностью изменения конфигурации",
+      "price": 11000,
+      "img": "/uploads/sofa.jpg",
+      "id_category": 3
+    },
+    {
+      "id": 28,
+      "name": "Деревянная кровать",
+      "description": "Кровать с деревянным каркасом и изогнутым изголовьем",
+      "price": 8500,
+      "img": "/uploads/bed.jpg",
+      "id_category": 4
+    },
+    {
+      "id": 29,
+      "name": "Барный стол",
+      "description": "Стол для барной зоны с подножкой",
+      "price": 1600,
+      "img": "/uploads/table.jpg",
+      "id_category": 5
+    },
+    {
+      "id": 30,
+      "name": "Гардеробный шкаф",
+      "description": "Шкаф для хранения одежды с отделениями и полками",
+      "price": 4000,
+      "img": "/uploads/closet.jpg",
+      "id_category": 6
+    }
+  ],
+  "orders": [],
+  "orderDetails": []
+}

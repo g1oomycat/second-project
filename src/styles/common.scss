@@ -1,0 +1,26 @@
+body {
+  height: 100%;
+  line-height: 1;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+._cont_limit {
+  max-width: 1780px;
+  padding: 0px 15px;
+  margin: 0px auto;
+  box-sizing: content-box;
+}
+.main {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+
+a {
+  color: black;
+}

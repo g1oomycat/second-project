@@ -1,0 +1,105 @@
+.basket {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  .basket_body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    gap: 60px;
+    margin: 80px 0px;
+    @media (max-width: 1400px) {
+      margin: 60px 0px;
+      gap: 40px;
+    }
+    @media (max-width: 1400px) {
+      margin: 60px 0px;
+      gap: 40px;
+    }
+    @media (max-width: 1200px) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+.basket_column_left {
+  width: calc(100% - 400px - 60px);
+  height: 100%;
+  position: relative;
+  @media (max-width: 1400px) {
+    width: calc(100% - 300px - 40px);
+  }
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+}
+.basket_info_user {
+  width: 100%;
+  min-height: 300px;
+  background-color: rgb(228, 227, 226);
+  padding: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  .basket_form {
+    min-width: 200px;
+    max-width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    p {
+      color: red;
+    }
+  }
+}
+
+.basket_column_right {
+  position: relative;
+  width: 400px;
+  padding-top: 50px;
+  @media (max-width: 1400px) {
+    width: 300px;
+    padding-top: 40px;
+  }
+  @media (max-width: 1200px) {
+    width: 100%;
+  }
+  .right_item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    @media (max-width: 1200px) {
+      align-items: center;
+      width: 100%;
+    }
+    .total {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    .coast_bonus {
+      padding: 30px 0px;
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      @media (max-width: 1200px) {
+        width: 100%;
+        border-top: 0px solid black;
+      }
+      .coast {
+        font-size: 35px;
+        font-weight: 600;
+      }
+      .bonus {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        span {
+          padding-left: 5px;
+        }
+      }
+    }
+  }
+}

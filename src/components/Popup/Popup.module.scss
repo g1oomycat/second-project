@@ -1,0 +1,56 @@
+.popup {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+  .popup_mask {
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .popup_cont {
+    position: relative;
+    min-width: 450px;
+    min-height: 400px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 99999;
+    border-radius: 7px;
+    .popup_exit {
+      cursor: pointer;
+      position: absolute;
+      right: 15px;
+      top: 15px;
+      svg {
+        font-size: 30px;
+      }
+    }
+    .popup_form {
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .enter_title {
+        margin-bottom: 40px;
+        font-size: 25px;
+        font-weight: 500;
+      }
+      .find_table_items {
+        width: 100%;
+        margin-bottom: 25px;
+        p {
+          color: red;
+        }
+      }
+    }
+  }
+}
